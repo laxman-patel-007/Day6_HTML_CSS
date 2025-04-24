@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+              <td>Cell 1</td>
+              <td>Cell 2</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+              <th>Name</th>
+              <th>city</th>
+            </tr>
+            <tr>
+              <td>Sara</td>
+              <td>Mumbai</td>
+            </tr>    
+        </table>
+        <table border="1">
+            <caption>🌍 Top Countries in Asia</caption>
+            <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            </tr>
+            <tr>
+            <td>India</td>
+            <td>New Delhi</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+              <th>Fruit</th>
+              <th>Color</th>
+            </tr>
+            <tr><td>Apple</td><td>Red</td></tr>
+            <tr><td>Banana</td><td>Yellow</td></tr>
+            <tr><td>Grapes</td><td>Purple</td></tr>
+            <tr><td>Orange</td><td>Orange</td></tr>
+        </table>
+        <table border="1">
+            <tr><th>Item</th><td>Pencil</td></tr>
+            <tr><th>Price</th><td>$1</td></tr>
+            <tr><th>Quantity</th><td>10</td></tr>
+        </table>
+        <table style="border: 2px solid greenyellow;">
+            <tr><td>Styled Cell</td><td>Another</td></tr>
+        </table>
+        <table border="1">
+            <tr><th colspan="2">Full Row</th></tr>
+            <tr><td>Left</td><td>Right</td></tr>
+            <tr><th colspan="2">Full Row</th></tr>
+        </table>
+        <table border="1">
+            <tr><th rowspan="3">Category</th><td>Math</td></tr>
+            <tr><td>Science</td></tr>
+            <tr><td>English</td></tr>
+        </table>
+        <table border="1">
+            <caption>📚 Subject Scores</caption>
+            <tr><th>Subject</th><th>Marks</th></tr>
+            <tr><td>Math</td><td>90</td></tr>
+            <tr><td>Science</td><td>85</td></tr>
+        </table>
+        <style>
+            tr:hover.hovers { background-color: #b1e8fe; }
+        </style>
+        <table border="1">
+            <tr class="hovers"><th>Book</th><th>Author</th></tr>
+            <tr class="hovers"><td>1984</td><td>George Orwell</td></tr>
+        </table>
+        <style>
+            th.styled-table 
+            {
+              background-color: black;
+              color: white;
+              text-align: center;
+              padding: 10px;
+            }
+        </style>
+        <table border="1">
+            <tr><th class="styled-table">Team</th><th class="styled-table">Score</th></tr>
+            <tr><td>Red</td><td>85</td></tr>
+        </table>
+        <table border="1" style="width: 100%;">
+            <tr><td>Wide Cell</td><td>Another</td></tr>
+        </table>
+        <style>
+            table.a { border-collapse: collapse; }
+            td.b, th.b { border: 1px double #ccc; padding: 10px; }
+        </style>
+        <table class="a">
+            <tr><th class="b">Movie</th><th class="b">Year</th></tr>
+            <tr><td class="b">Inception</td><td class="b">2010</td></tr>
+        </table>
+        <style>
+            tr:nth-child(odd).d { background-color: #655454; }
+        </style>
+        <table border="1">
+            <tr class="d"><th>Day</th><th>Activity</th></tr>
+            <tr><td>Mon</td><td>Gym</td></tr>
+            <tr><td>Tue</td><td>Study</td></tr>
+        </table>
+        <table border="1">
+            <caption>🧮 Budget Sheet</caption>
+            <tr><th>Item</th><th>Cost</th></tr>
+            <tr><td>Rent</td><td>$500</td></tr>
+            <tr><td>Food</td><td>$200</td></tr>
+            <tr><td colspan="2"></td></tr>
+        </table>
+        <style>
+            table.e {
+              width: 50%;
+              margin: auto;
+              border: 2px dashed purple;
+            }
+        </style>
+        <table class="e">
+            <caption>🎨 Colors</caption>
+            <tr><td style="background-color: red;">Red</td><td>#FF0000</td></tr>
+        </table>
+        <table border="1">
+            <tr><th>Country</th><th>Capital</th></tr>
+            <tr><td>France</td><td>Paris</td></tr>
+            <tr><td>Germany</td><td>Berlin</td></tr>
+            <tr><td>Italy</td><td>Rome</td></tr>
+        </table>
+        <table border="1">
+            <tr>
+              <td><img src="bmw.jpg" alt="Sample" style="width: 100%;"></td>
+              <td>Description</td>
+            </tr>
+        </table>
+        <style>
+            table.borderless 
+            { 
+              border: 2px solid #000;
+              border-radius: 10px;
+            }
+        </style>
+        <table class="borderless">
+            <tr><td>No</td><td>Borders</td></tr>
+        </table>
+        <table border="1">
+            <tr><td>Left Menu</td><td style="width: 100px;">Main Content</td></tr>
+        </table>
+        <table border="1">
+            <tr>
+            <td>Outer Table
+                <table border="1">
+                <tr><td>Inner Table</td></tr>
+                </table>
+            </td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr><td rowspan="2">A</td><td>B</td></tr>
+            <tr><td>C</td></tr>
+            <tr><td colspan="2">D</td></tr>
+        </table>
+        <table border="1">
+            <tr><td style="vertical-align: top; width: 50px; height: 50px;">Right</td><td style="vertical-align: top; width: 50px;">Center</td></tr>
+        </table>
+        <table style="width: 100%;" border="1">
+            <tr><th>Full Width Table</th><th>✓</th></tr>
+            <tr><td>Stretches to screen</td><td>Yes</td></tr>
+        </table>
+        <style>
+            table.f {
+                width: 60%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                font-family: Arial, sans-serif;
+            }
+            caption.f {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            th.f {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px;
+            }
+            td.f {
+                border: 1px solid #ddd;
+                text-align: center;
+                padding: 10px;
+            }
+            tr:nth-child(even).f {
+                background-color: #f9f9f9;
+            }
+        </style>
+        <table class="f">
+            <caption class="f">🌟 Weekly Team Performance 🌟</caption>
+            <thead class="f">
+                <tr class="f">
+                    <th class="f">Day</th>
+                    <th class="f">Team Member</th>
+                    <th class="f">Tasks Completed</th>
+                </tr>
+            </thead>
+            <tbody class="f">
+                <tr class="f">
+                    <td class="f">Monday</td>
+                    <td class="f">John</td>
+                    <td class="f">5</td>
+                </tr>
+                <tr class="f">
+                    <td class="f">Tuesday</td>
+                    <td class="f" colspan="2">😄 All Team Members Collaborated!</td>
+                </tr>
+                <tr class="f">
+                    <td class="f">Wednesday</td>
+                    <td class="f">Jane</td>
+                    <td class="f">7</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
