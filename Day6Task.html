@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 Task</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header 
+        {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 
+        {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        header p 
+        {
+            margin: 0;
+            font-size: 1rem;
+        }
+        nav 
+        {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5rem 0;
+        }
+        nav a 
+        {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover 
+        {
+            text-decoration: underline;
+        }
+        .container 
+        {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .section 
+        {
+            margin-bottom: 2rem;
+        }
+        .section h2 
+        {
+            font-size: 1.5rem;
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        code {
+            display: block;
+            background: #f4f4f9;
+            padding: 0.5rem;
+            border-left: 4px solid #4caf50;
+            margin-bottom: 0.5rem;
+            white-space: pre-wrap;
+        }
+        .example 
+        {
+            background: #f9f9f9;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            margin-top: 1rem;
+            border-radius: 8px;
+        }
+        .rounded-box 
+        {
+            background: #4caf50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 16px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML + CSS Beginner Practice Guide</h1>
+        <p>Understand basic HTML tags and CSS properties</p>
+    </header>
+    <nav>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#practice">Practice</a>
+    </nav>
+    <div class="container">
+        <div id="html" class="section">
+            <h2>HTML Basics</h2>
+            <code>&lt;html&gt; — Root element that wraps entire HTML document.</code>
+            <code>&lt;head&gt; — Contains metadata like title, links to CSS, charset.</code>
+            <code>&lt;body&gt; — Visible part of HTML page.</code>
+            <code>&lt;h1&gt; to &lt;h6&gt; — Headings, h1 is largest.</code>
+            <code>&lt;p&gt; — Paragraph text.</code>
+            <code>&lt;div&gt; — Generic container block.</code>
+            <code>&lt;span&gt; — Inline container.</code>
+            <code>&lt;a href&gt; — Hyperlink.</code>
+            <code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; — Unordered, ordered lists and items.</code>
+            <code>&lt;table&gt; — Table structure with &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;.</code>
+        </div>
+        <div id="css" class="section">
+            <h2>CSS Basics</h2>
+            <code>color: Changes text color.</code>
+            <code>background-color: Sets background.</code>
+            <code>padding: Space inside the element.</code>
+            <code>margin: Space outside the element.</code>
+            <code>border: Adds outline around the element.</code>
+            <code>font-size: Controls text size.</code>
+            <code>text-align: Aligns text.</code>
+            <code>display: Controls layout (block, inline, flex).</code>
+            <code>flexbox: Layout system for flexible items.</code>
+            <code>box-shadow: Adds shadow around elements.</code>
+        </div>
+        <div id="practice" class="section">
+            <h2>Practice Examples</h2>
+            <div class="example">
+                Try modifying padding and margin values and observe changes.
+                <div style="padding: 20px; margin: 10px; background: #e3f2fd;">Box 1: Padding: 20px | Margin: 10px</div>
+                <div style="padding: 0; margin: 5px; background: #e8f5e9;">Box 2: Padding: 0 | Margin: 5px</div>
+            </div>
+            <div class="example">
+                <div style="display: flex; gap: 10px;">
+                    <div style="flex: 1; background: #ffccbc; padding: 10px;">Flex Item 1</div>
+                    <div style="flex: 1; background: #dcedc8; padding: 10px;">Flex Item 2</div>
+                </div>
+            </div>
+            <div class="example">
+                <div style="text-align: center; font-size: 1.2rem; border: 2px solid #4caf50; padding: 10px;">
+                    Centered and styled text!
+                </div>
+            </div>
+            <div class="rounded-box">
+                Rounded corner alert box.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
